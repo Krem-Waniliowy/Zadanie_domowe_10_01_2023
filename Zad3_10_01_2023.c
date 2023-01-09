@@ -9,6 +9,7 @@ int main(void)
     int t_2[K] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 
     // Tablice przed zamianą
+    /*
     for (int i = 0; i < N; i++)
     {
         printf("t_1[%d] = %d\n", i, t_1[i]);
@@ -19,9 +20,11 @@ int main(void)
         printf("t_2[%d] = %d\n", i, t_2[i]);
     }
     printf("\n");
-
+    */
+    
     zamiana(t_1, t_2);
-
+    
+    // Tak o, napisane żeby se wyświetlało
     for (int i = 0; i < N; i++)
     {
         printf("t_1[%d] = %d\n", i, t_1[i]);
